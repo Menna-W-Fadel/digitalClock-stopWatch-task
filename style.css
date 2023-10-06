@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    /* background-color: hsl(270, 20%, 96%); */
+    background-image: linear-gradient(to bottom right,hsl(270, 20%, 96%) 10%,white ,white,hsl(264, 84%, 70%) );
+}
+.container{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 252px;
+}
+
+.fa-solid{
+    cursor: pointer;
+    margin-left: -1px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.sec1 h1{
+    margin-bottom: 8px;
+}
+#sec2{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(255,255,255,0.7);
+    overflow: auto;
+    padding-top: 20px;
+}
+.content{
+    background-color: #fefefe;
+    margin: 15% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 33%;
+    border-radius: 6px;
+    border-color: white;
+    box-shadow: 8px 5px 5px 3px rgba(0, 0, 0, 0.062);
+    position: relative;
+    padding: 15px;
+}
+.close{
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(109, 108, 108);
+    cursor: pointer;
+    margin-left: 900px;
+    position: absolute;
+}
+.content h2{
+    margin-bottom: 20px;
+}
+
+.content button{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color:#0562eeda ;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button#start{
+    background-color: rgb(20, 175, 20);
+}
+button#stop{
+    background-color: rgb(238, 41, 41);
+}
+button#start:hover{
+    background-color: rgb(9, 102, 9);
+}
+button#stop:hover{
+    background-color: rgb(138, 21, 21);
+}
+button#reset:hover{
+    background-color: #062555da;
+}
+
+.container h5,h1{
+    color: hsl(0, 1%, 49%);
+}
+.container h2{
+    color: hsl(271, 36%, 24%);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4dc8d7ac64.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sec1">
+            <h1>Digital Clock</h1>
+            <h2 id="clock"></h2>
+        </div>
+        
+        <i class="fa-solid fa-stopwatch fa-2xl" style="color: hsl(271, 15%, 43%);" onclick="document.getElementById('sec2').style.display='block'"></i>
+        <h5>Stop watch</h5>
+        <div id="sec2">
+            <div class="close">
+                <span onclick="document.getElementById('sec2').style.display='none'" title="Close Modal">&times;</span>
+            </div>
+            <div class="content">
+                <h2 id="stopWatch">00:00:00</h2>
+                <button type="button" id="start" onclick="startWatch()">Start</button>
+                <button type="button" id="stop" onclick="stopWatch()">Stop</button>
+                <button type="button" id="reset" onclick="resetWatch()">Rest</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
